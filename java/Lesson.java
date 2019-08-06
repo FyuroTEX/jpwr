@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Lesson {
 
     public static void main(String[] args) {
@@ -24,6 +27,10 @@ public class Lesson {
         System.out.println(comeClass.getWindow().getHeigth());
 //        System.out.println(comeClass.window.heigth);
         comeClass.someFunction();
+
+
+
+
 
     }
 }

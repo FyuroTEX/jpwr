@@ -74,10 +74,15 @@ public class Car {
 //            whiteRightDoor.add(i);
 //        });
         for (Door door : doorsFromGarage) {
-            if (door.getColor().equals("white") && door.getPosition().equals("Right"))
-                whiteRightDoor.add(door);
+            if(door.getColor().equals("white") && door.getPosition().equals("Right"))
+            whiteRightDoor.add(door);
         }
         System.out.println("Right White dors :" + whiteRightDoor);
+
+
+
+
+
 
 
         for (int i = 0; i < corchaliga.doors.size(); i++) {
@@ -111,7 +116,7 @@ public class Car {
 
         List<Door> colorPlusPosition = new ArrayList<>();
 
-        for (int i = 0; i < 15; i++) {
+        for (int i = 0; i < 15 ; i++) {
             for (int j = 0; j < 3; j++) {
 
                 for (int k = 0; k < 3; k++) {
@@ -147,45 +152,12 @@ public class Car {
         Door someDoor43 = new Door();
         someDoor43.setColor("black");
 
-        Door someDoor44 = new Door();
-        ;
+        Door someDoor44 = new Door();;
 
         someDoor44.setColor("black");
-        someDoor44.setPosition("fdsgdg");
+        someDoor44.setPosition("fdsgdg ");
 
         System.out.println(someDoor43.equals(someDoor44));//green
-
-
-        List<String> listColor = new ArrayList();
-        listColor.add("white");
-        listColor.add("yellow");
-        listColor.add("black");
-        listColor.add("white");
-        listColor.add("black");
-        listColor.add("white");
-        listColor.add("yellow");
-        listColor.add("white");
-        listColor.add("yellow");
-        listColor.add("white");
-//        listColor.forEach(i -> {
-//            if (i.contains("white")) {
-//                listColor.remove(listColor.get(item));
-//            }
-//        });
-//        for (String item: listColor) {
-//            if(item.contains("white")){
-//                listColor.remove(listColor.indexOf(item));
-//            }
-//        }
-        for (int i = listColor.size() -1 ; i >= 0; i--) {
-            if(listColor.get(i).equals("white")){
-                listColor.remove(i);
-            }
-        }
-//        System.out.println(listColor.get(0).contains("white"));
-        System.out.println(listColor);
-
-
 
 
     }

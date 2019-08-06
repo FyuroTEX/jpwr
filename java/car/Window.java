@@ -23,8 +23,7 @@ public class Window {
     public void setOpacity(Double opacity) {
         this.opacity = opacity;
     }
-
-    public Double Area(Double heigth, Double width) {
+    public Double Area(Double heigth, Double width){
         return heigth * width;
     }
 
