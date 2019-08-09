@@ -70,20 +70,20 @@ public class Main {
         mapWithLIstINside.put("a", someIntegers);
         someLIst.add(mapWithLIstINside);
 
-        Map<String, String> mapWithStrings = Map.of("key1", "value1",
-                "key2","value2");
+//        Map<String, String> mapWithStrings = Map.of("key1", "value1",
+//                "key2","value2");
 
-        mapWithStrings.forEach((key, value)-> System.out.println("This is key "+key+ " and value is :"+ value));
-
-        Iterator<Map.Entry<String, String>> iterator = mapWithStrings.entrySet().iterator();
-        while (iterator.hasNext()==true) {
-            System.out.println(iterator.next().getValue());
-        }
-
-
-        mapWithStrings.getOrDefault("a", "azaza");
-
-        List<Integer> listInt = someLIst.get(0).get("a");
-        listInt.add(1);
+//        mapWithStrings.forEach((key, value)-> System.out.println("This is key "+key+ " and value is :"+ value));
+//
+//        Iterator<Map.Entry<String, String>> iterator = mapWithStrings.entrySet().iterator();
+//        while (iterator.hasNext()==true) {
+//            System.out.println(iterator.next().getValue());
+//        }
+//
+//
+//        mapWithStrings.getOrDefault("a", "azaza");
+//
+//        List<Integer> listInt = someLIst.get(0).get("a");
+//        listInt.add(1);
     }
 }
